@@ -37,8 +37,7 @@ window.onload = () => {
     info.addEventListener("click", startTransition);
   });
   let boardImage = document.createElement("img");
-  boardImage.src =
-    "https://cdn.pixabay.com/photo/2015/01/16/20/39/wood-601830_960_720.png";
+  boardImage.src = "woodboard.png";
   drawWalls();
   createTorches();
   let [rotationBaseX, rotationBaseY] = drawHangers();
